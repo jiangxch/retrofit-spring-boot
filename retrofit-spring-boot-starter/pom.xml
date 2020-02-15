@@ -11,6 +11,10 @@
 
     <artifactId>retrofit-spring-boot-starter</artifactId>
 
+    <name>retrofit-spring-boot-starter</name>
+    <description>retrofit spring boot starter dependent module</description>
+
+
     <dependencies>
         <dependency>
             <groupId>retrofit.spring.boot.autoconfiguration</groupId>

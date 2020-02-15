@@ -11,6 +11,9 @@
 
     <artifactId>retrofit-spring-autoconfigure-test</artifactId>
 
+    <name>retrofit-spring-autoconfigure-test</name>
+    <description>Spring Boot integrate retrofit test module</description>
+
     <dependencies>
         <dependency>
             <groupId>retrofit.spring.boot.autoconfiguration</groupId>

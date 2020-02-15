@@ -11,6 +11,9 @@
 
     <artifactId>retrofit-spring-boot-autoconfigure</artifactId>
 
+    <name>retrofit-spring-boot-autoconfigure</name>
+    <description>Spring Boot integrate retrofit module</description>
+
     <dependencies>
         <dependency>
             <groupId>com.github.sanjin</groupId>
