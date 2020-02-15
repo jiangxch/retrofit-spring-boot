@@ -6,7 +6,7 @@
     </bean>
 
     <bean id="gitHubService" class="com.github.jiangxch.retrofitspring.spring.RetrofitSpringFactoryBean"
-          p:clazz="com.github.jiangxch.test.retrofitspring.remote.GitHubService">
+          p:clazz="com.github.jiangxch.test.retrofitspring.remote.service.GitHubService">
         <property name="factory" ref="factory"/>
     </bean>
 
