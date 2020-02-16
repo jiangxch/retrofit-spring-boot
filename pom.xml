@@ -105,6 +105,9 @@
                                 </goals>
                             </execution>
                         </executions>
+                        <configuration>
+                            <passphrase>123456789</passphrase>
+                        </configuration>
                     </plugin>
                 </plugins>
             </build>
