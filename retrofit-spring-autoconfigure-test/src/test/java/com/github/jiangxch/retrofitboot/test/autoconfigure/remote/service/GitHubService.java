@@ -1,7 +1,7 @@
 package com.github.jiangxch.retrofitboot.test.autoconfigure.remote.service;
 
-import com.github.sanjin.annotation.RetrofitConfig;
 import com.github.jiangxch.retrofitboot.test.autoconfigure.remote.model.Repo;
+import com.github.jiangxch.retrofitspring.annotation.RetrofitConfig;
 import retrofit2.http.GET;
 import retrofit2.http.Path;
 
