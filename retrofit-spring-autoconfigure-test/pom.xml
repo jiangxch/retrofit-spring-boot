@@ -5,7 +5,7 @@
     <parent>
         <artifactId>retrofit-spring-boot</artifactId>
         <groupId>com.github.jiangxch</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0.0-RELEASE</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -18,7 +18,7 @@
         <dependency>
             <groupId>com.github.jiangxch</groupId>
             <artifactId>retrofit-spring-boot-autoconfigure</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0.0-RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
