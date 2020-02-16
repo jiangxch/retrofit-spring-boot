@@ -1,8 +1,9 @@
 package com.github.jiangxch.retrofitboot.autoconfigure;
 
-import com.github.sanjin.annotation.RetrofitConfig;
-import com.github.sanjin.spring.DefaultRetrofitSpringFactory;
-import com.github.sanjin.spring.RetrofitSpringFactoryBean;
+import com.github.jiangxch.retrofitspring.annotation.RetrofitConfig;
+import com.github.jiangxch.retrofitspring.spring.DefaultRetrofitSpringFactory;
+import com.github.jiangxch.retrofitspring.spring.RetrofitSpringFactoryBean;
+
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.BeanFactoryAware;

@@ -1,20 +1,17 @@
 package com.github.jiangxch.retrofitboot.autoconfigure;
 
-import com.github.sanjin.annotation.RetrofitConfig;
-import com.github.sanjin.spring.DefaultRetrofitSpringFactory;
-import com.github.sanjin.spring.RetrofitSpringFactory;
-import com.github.sanjin.spring.RetrofitSpringFactoryBean;
+import com.github.jiangxch.retrofitspring.annotation.RetrofitConfig;
+import com.github.jiangxch.retrofitspring.spring.DefaultRetrofitSpringFactory;
+import com.github.jiangxch.retrofitspring.spring.RetrofitSpringFactory;
+import com.github.jiangxch.retrofitspring.spring.RetrofitSpringFactoryBean;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.FactoryBean;
 import org.springframework.beans.factory.annotation.AnnotatedBeanDefinition;
 import org.springframework.beans.factory.config.BeanDefinitionHolder;
-import org.springframework.beans.factory.config.RuntimeBeanReference;
-import org.springframework.beans.factory.support.AbstractBeanDefinition;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
 import org.springframework.beans.factory.support.GenericBeanDefinition;
 import org.springframework.context.annotation.ClassPathBeanDefinitionScanner;
 import org.springframework.core.type.filter.AnnotationTypeFilter;
-import org.springframework.util.StringUtils;
 
 import java.lang.annotation.Annotation;
 import java.util.Arrays;
